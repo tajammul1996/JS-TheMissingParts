@@ -21,10 +21,10 @@ console.log(naame);
 naame='ew';
 console.log(naame);
 
-var firstName = 'Tajammul' // CamelCase
-var first_name = 'Tajammul' // UnderScore 
-var FirstName = 'Tajammul' // PascalCase
-var firstname = 'Tajammul' // small letter case
+// var firstName = 'Tajammul' // CamelCase
+// var first_name = 'Tajammul' // UnderScore 
+// var FirstName = 'Tajammul' // PascalCase
+// var firstname = 'Tajammul' // small letter case
 
 /*
 
@@ -82,3 +82,61 @@ console.clear();
 // toFixed()
 // parseInt()
 // parseFloat()
+
+// String  Operations
+const firstName = 'Tajammul'
+const lastName = 'Pasha'
+
+let val;
+
+// String Concatenation
+val = firstName + ' ' + lastName
+
+// Append
+
+val = 'Hello '
+val += 'There'
+
+// Escaping
+
+val = ' That\'s Awesome! '
+
+// Length
+val = firstName.length;
+
+// Concat
+val = firstName.concat(' ', lastName);
+
+// Change Case
+val = firstName.toUpperCase();
+val = firstName.toLowerCase();
+
+val = firstName[1];
+
+// indexOf
+val = firstName.indexOf('T ');
+
+// charAt
+val = firstName.charAt(2);
+val = firstName.charAt(0);
+
+// substring
+val = firstName.substring(0, 3);
+
+// slicing
+val = firstName.slice(-3);
+
+// split
+str = 'Hello! My name is tajammul pasha'
+val = str
+val = str.split(' ');
+
+// replace()
+val = str.replace('Hello', 'Hi')
+
+// includes()
+
+val = str.includes('tajammul pasha');
+val = str.includes('Hi');
+
+console.log(val)
